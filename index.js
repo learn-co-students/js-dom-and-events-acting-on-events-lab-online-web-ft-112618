@@ -15,7 +15,7 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   let newEmployee = retrieveEmployeeInformation();
   return document.querySelector('ul.employee-list').insertAdjacentHTML(
-    'beforeend', `<li>${newEmployee}`);
+    'beforeend', `<li>${newEmployee}</li>`);
 }
 
 function addNewLiOnClick() {
